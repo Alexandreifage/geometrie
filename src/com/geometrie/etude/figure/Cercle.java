@@ -10,7 +10,7 @@ public class Cercle extends Figure {
 	}
 	
 	// méthode:
-	@Override // vérifie que la methode est existante
+	@Override // vérifie si la methode est existante et la remplace
 	public double calculerSurface() {
 		
 		return rayon * rayon * Math.PI;
